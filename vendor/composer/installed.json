@@ -151,16 +151,16 @@
         },
         {
             "name": "wpackagist-plugin/advanced-access-manager",
-            "version": "6.9.41",
-            "version_normalized": "6.9.41.0",
+            "version": "6.9.42",
+            "version_normalized": "6.9.42.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-access-manager/",
-                "reference": "tags/6.9.41"
+                "reference": "tags/6.9.42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-access-manager.6.9.41.zip"
+                "url": "https://downloads.wordpress.org/plugin/advanced-access-manager.6.9.42.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -168,7 +168,7 @@
             "type": "wordpress-plugin",
             "installation-source": "dist",
             "homepage": "https://wordpress.org/plugins/advanced-access-manager/",
-            "install-path": "../../wp-content/plugins/advanced-access-manager"
+            "install-path": "../wpackagist-plugin/advanced-access-manager"
         },
         {
             "name": "yoast/whip",
@@ -299,7 +299,7 @@
                 "source": "https://github.com/Yoast/wordpress-seo",
                 "wiki": "https://github.com/Yoast/wordpress-seo/wiki"
             },
-            "install-path": "../../wp-content/plugins/wordpress-seo"
+            "install-path": "../yoast/wordpress-seo"
         }
     ],
     "dev": true,

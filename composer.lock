@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e68328ebab0b6f260ef3453301571b64",
+    "content-hash": "5ca4f067db17798b687b734498d6a3ac",
     "packages": [
         {
             "name": "composer/installers",
@@ -154,15 +154,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-access-manager",
-            "version": "6.9.41",
+            "version": "6.9.42",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-access-manager/",
-                "reference": "tags/6.9.41"
+                "reference": "tags/6.9.42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-access-manager.6.9.41.zip"
+                "url": "https://downloads.wordpress.org/plugin/advanced-access-manager.6.9.42.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
