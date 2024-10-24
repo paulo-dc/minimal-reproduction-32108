@@ -168,7 +168,7 @@
             "type": "wordpress-plugin",
             "installation-source": "dist",
             "homepage": "https://wordpress.org/plugins/advanced-access-manager/",
-            "install-path": "../../wp-content/plugins/advanced-access-manager"
+            "install-path": "../wpackagist-plugin/advanced-access-manager"
         },
         {
             "name": "yoast/whip",
@@ -227,17 +227,17 @@
         },
         {
             "name": "yoast/wordpress-seo",
-            "version": "23.6",
-            "version_normalized": "23.6.0.0",
+            "version": "23.7",
+            "version_normalized": "23.7.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Yoast-dist/wordpress-seo.git",
-                "reference": "f2baf6b3ee1ef6f1a9c2383cc7ab0c1add2aee53"
+                "reference": "409d6579f0b308e33d0d9ef1ca3d8ae43042fdee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Yoast-dist/wordpress-seo/zipball/f2baf6b3ee1ef6f1a9c2383cc7ab0c1add2aee53",
-                "reference": "f2baf6b3ee1ef6f1a9c2383cc7ab0c1add2aee53",
+                "url": "https://api.github.com/repos/Yoast-dist/wordpress-seo/zipball/409d6579f0b308e33d0d9ef1ca3d8ae43042fdee",
+                "reference": "409d6579f0b308e33d0d9ef1ca3d8ae43042fdee",
                 "shasum": ""
             },
             "require": {
@@ -263,7 +263,7 @@
                 "ext-libxml": "Improves image sitemap",
                 "ext-mbstring": "For cyrillic support"
             },
-            "time": "2024-10-08T09:46:19+00:00",
+            "time": "2024-10-22T08:04:06+00:00",
             "type": "wordpress-plugin",
             "installation-source": "dist",
             "autoload": {
@@ -299,7 +299,7 @@
                 "source": "https://github.com/Yoast/wordpress-seo",
                 "wiki": "https://github.com/Yoast/wordpress-seo/wiki"
             },
-            "install-path": "../../wp-content/plugins/wordpress-seo"
+            "install-path": "../yoast/wordpress-seo"
         }
     ],
     "dev": true,
