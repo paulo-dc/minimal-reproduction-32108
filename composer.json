@@ -1,0 +1,33 @@
+{
+    "name": "for/testing",
+    "description": "For testing",
+    "license": "proprietary",
+    "require": {
+        "composer/installers": "*",
+        "yoast/wordpress-seo": ">=23.5",
+        "wpackagist-plugin/advanced-access-manager": "~6.9"
+    },
+    "repositories": [
+        {
+            "name": "wpackagist",
+            "type": "composer",
+            "url": "https://wpackagist.org",
+            "only": [
+                "wpackagist-plugin/*",
+                "wpackagist-theme/*"
+            ]
+        }
+    ],
+    "extra": {
+        "installer-paths": {
+            "wp-content/plugins/{$name}": [
+                "type:wordpress-plugin"
+            ]
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}

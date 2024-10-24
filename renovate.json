@@ -1,0 +1,24 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "config:recommended",
+        ":disableDependencyDashboard"
+    ],
+    "ignorePaths": [
+        "wp-content/plugins/**",
+        "vendor/**",
+        "wp-includes/**"
+    ],
+    "packageRules": [
+        {
+            "matchManagers": [
+                "composer"
+            ],
+            "description": "Disable php on od-frontdev as major updates need to be done together with wordpress",
+            "matchPackageNames": [
+                "/containerbase\/php-prebuild/"
+            ],
+            "enabled": false
+        }
+    ]
+}
